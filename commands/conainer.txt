@@ -1,0 +1,1 @@
+docker container rm -f $(docker container ls -aq)   ==> to remove run and stoped containers also
