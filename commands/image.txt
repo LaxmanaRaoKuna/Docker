@@ -1,0 +1,2 @@
+docker image ls -q       ===> to get oly image ids
+docker image rm $(docker image ls -q)   ===> to remove all the images
