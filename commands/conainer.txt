@@ -1,2 +1,4 @@
 docker container rm -f $(docker container ls -aq)   ==> to remove run and stoped containers also ##running container are not removed easily so we are using -f flap
 docker container rm $(docker container ls -aq)  ==> to remove stoped containers only
+docker ps       ===> to get running containers
+docker ps -a    ===> to get run and stoped conainers
